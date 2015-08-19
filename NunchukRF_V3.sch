@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:crf_1
 LIBS:NunchukRF_V3-cache
-EELAYER 25 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -73,7 +73,7 @@ $Comp
 L R R1
 U 1 1 55031F95
 P 850 3550
-F 0 "R1" V 930 3550 50  0000 C CNN
+F 0 "R1" V 800 3800 50  0000 C CNN
 F 1 "2k" V 850 3550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 850 3550 60  0001 C CNN
 F 3 "" H 850 3550 60  0001 C CNN
@@ -129,7 +129,6 @@ $EndComp
 NoConn ~ 4650 2750
 NoConn ~ 4650 3150
 NoConn ~ 4650 3250
-NoConn ~ 1650 2700
 NoConn ~ 1650 2800
 $Comp
 L C C8
@@ -483,7 +482,6 @@ F 3 "" H 5300 7050 60  0000 C CNN
 $EndComp
 NoConn ~ 1650 2900
 NoConn ~ 1650 3850
-NoConn ~ 1650 3950
 $Comp
 L LED D2
 U 1 1 550C130D
@@ -1029,7 +1027,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 2900 7350 2900
 Wire Wire Line
-	7350 2900 7350 2950
+	7350 2650 7350 2950
 Wire Wire Line
 	7750 2900 7650 2900
 Wire Wire Line
@@ -1208,4 +1206,28 @@ Wire Wire Line
 	5100 7050 5300 7050
 Connection ~ 5100 7050
 Connection ~ 5100 6450
+Text GLabel 7050 2650 0    60   Input ~ 0
+CP2102_ON
+Wire Wire Line
+	7050 2650 7350 2650
+Connection ~ 7350 2900
+Text GLabel 950  2500 1    60   Input ~ 0
+CP2102_ON
+$Comp
+L R R14
+U 1 1 55D51D5B
+P 950 2850
+F 0 "R14" V 1030 2850 50  0000 C CNN
+F 1 "2k" V 950 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 950 2850 60  0001 C CNN
+F 3 "" H 950 2850 60  0001 C CNN
+	1    950  2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  2600 950  2500
+Wire Wire Line
+	950  3100 950  3950
+Wire Wire Line
+	950  3950 1650 3950
 $EndSCHEMATC
