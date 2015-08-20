@@ -254,17 +254,17 @@ F 3 "" H 9050 1800 60  0001 C CNN
 	1    9050 1800
 	-1   0    0    -1  
 $EndComp
-Text GLabel 9700 2150 0    60   Input ~ 0
-NRF_CE
-Text GLabel 9700 2050 0    60   Input ~ 0
-NRF_CSN
-Text GLabel 9700 1950 0    60   Input ~ 0
-NRF_SCK
-Text GLabel 9700 1850 0    60   Input ~ 0
-NRF_MOSI
-Text GLabel 9700 1750 0    60   Input ~ 0
-NRF_MISO
 Text GLabel 9700 1650 0    60   Input ~ 0
+NRF_CE
+Text GLabel 9700 1750 0    60   Input ~ 0
+NRF_CSN
+Text GLabel 9700 1850 0    60   Input ~ 0
+NRF_SCK
+Text GLabel 9700 1950 0    60   Input ~ 0
+NRF_MOSI
+Text GLabel 9700 2050 0    60   Input ~ 0
+NRF_MISO
+Text GLabel 9700 2150 0    60   Input ~ 0
 NRF_IRQ
 Wire Wire Line
 	9700 1550 9050 1550
@@ -274,17 +274,17 @@ Wire Wire Line
 	9050 1200 9050 1450
 Wire Wire Line
 	9050 1450 9700 1450
-Text GLabel 4650 2250 2    60   Input ~ 0
-NRF_CE
-Text GLabel 4650 2350 2    60   Input ~ 0
-NRF_CSN
-Text GLabel 4650 2450 2    60   Input ~ 0
-NRF_SCK
-Text GLabel 4650 2550 2    60   Input ~ 0
-NRF_MOSI
-Text GLabel 4650 2650 2    60   Input ~ 0
-NRF_MISO
 Text GLabel 1650 3050 0    60   Input ~ 0
+NRF_CE
+Text GLabel 4650 2650 2    60   Input ~ 0
+NRF_CSN
+Text GLabel 4650 2550 2    60   Input ~ 0
+NRF_SCK
+Text GLabel 4650 2450 2    60   Input ~ 0
+NRF_MOSI
+Text GLabel 4650 2350 2    60   Input ~ 0
+NRF_MISO
+Text GLabel 4650 2250 2    60   Input ~ 0
 NRF_IRQ
 $Comp
 L GND #PWR06
@@ -1230,4 +1230,5 @@ Wire Wire Line
 	950  3100 950  3950
 Wire Wire Line
 	950  3950 1650 3950
+NoConn ~ 1650 2700
 $EndSCHEMATC
