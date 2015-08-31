@@ -1,4 +1,3 @@
 (fp_lib_table
   (lib (name CRF1)(type KiCad)(uri ${KIPRJMOD}/Libraries/crf1.pretty)(options "")(descr ""))
-  (lib (name w_smd_qfn)(type KiCad)(uri ${KIPRJMOD}/Libraries/w_smd_qfn.pretty)(options "")(descr ""))
 )
