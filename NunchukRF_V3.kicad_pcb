@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 215.0116 44.196 244.2544 93.218001)
     (thickness 1.6)
-    (drawings 43)
+    (drawings 49)
     (tracks 665)
     (zones 0)
     (modules 44)
@@ -62,7 +62,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions true)
@@ -1330,13 +1330,13 @@
     )
   )
 
-  (module CRF1:1PAD_Small (layer F.Cu) (tedit 55D37F2E) (tstamp 55D31867)
+  (module CRF1:1PAD_Small (layer F.Cu) (tedit 55FB1332) (tstamp 55D31867)
     (at 219.964 89.154)
     (path /550A2548)
     (fp_text reference P1 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value V+ (at -0.889 -12.573 90) (layer F.SilkS)
+    (fp_text value V+ (at -0.889 -12.573 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -1.524 -1.524) (end 1.524 -1.524) (layer F.SilkS) (width 0.127))
@@ -1347,13 +1347,13 @@
       (net 23 V_IN))
   )
 
-  (module CRF1:1PAD_Small (layer F.Cu) (tedit 55D37F22) (tstamp 55D3186B)
+  (module CRF1:1PAD_Small (layer F.Cu) (tedit 55FB132B) (tstamp 55D3186B)
     (at 229.87 89.154)
     (path /550A2586)
     (fp_text reference P2 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value V- (at -4.572 -12.7 270) (layer F.SilkS)
+    (fp_text value V- (at -4.572 -12.7 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -1.524 -1.524) (end 1.524 -1.524) (layer F.SilkS) (width 0.127))
@@ -1364,13 +1364,13 @@
       (net 12 GND))
   )
 
-  (module CRF1:1PAD_Small (layer F.Cu) (tedit 55D385D4) (tstamp 55D3186F)
+  (module CRF1:1PAD_Small (layer F.Cu) (tedit 55FB1330) (tstamp 55D3186F)
     (at 223.266 89.154)
     (path /55D372CA)
     (fp_text reference P3 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value D- (at -2.159 -12.573 90) (layer F.SilkS)
+    (fp_text value D- (at -2.159 -12.573 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -1.524 -1.524) (end 1.524 -1.524) (layer F.SilkS) (width 0.127))
@@ -1381,13 +1381,13 @@
       (net 30 "Net-(P3-Pad1)"))
   )
 
-  (module CRF1:1PAD_Small (layer F.Cu) (tedit 55D4459E) (tstamp 55D31873)
+  (module CRF1:1PAD_Small (layer F.Cu) (tedit 55FB1336) (tstamp 55D31873)
     (at 235.712 89.154)
     (path /559450C5)
     (fp_text reference P4 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value Vbat- (at 0.889 -6.731 90) (layer F.SilkS)
+    (fp_text value Vbat- (at 0.889 -6.731 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -1.524 -1.524) (end 1.524 -1.524) (layer F.SilkS) (width 0.127))
@@ -1398,13 +1398,13 @@
       (net 12 GND))
   )
 
-  (module CRF1:1PAD_Small (layer F.Cu) (tedit 55D44424) (tstamp 55D31877)
+  (module CRF1:1PAD_Small (layer F.Cu) (tedit 55FB1339) (tstamp 55D31877)
     (at 239.014 89.154)
     (path /559450BB)
     (fp_text reference P5 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value Vbat+ (at 0.635 -6.731 90) (layer F.SilkS)
+    (fp_text value Vbat+ (at 0.635 -6.731 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -1.524 -1.524) (end 1.524 -1.524) (layer F.SilkS) (width 0.127))
@@ -1415,13 +1415,13 @@
       (net 1 +BATT))
   )
 
-  (module CRF1:1PAD_Small (layer F.Cu) (tedit 55D37F25) (tstamp 55D3187B)
+  (module CRF1:1PAD_Small (layer F.Cu) (tedit 55FB132E) (tstamp 55D3187B)
     (at 226.568 89.154)
     (path /55D373A7)
     (fp_text reference P6 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value D+ (at -3.429 -12.573 90) (layer F.SilkS)
+    (fp_text value D+ (at -3.429 -12.573 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -1.524 -1.524) (end 1.524 -1.524) (layer F.SilkS) (width 0.127))
@@ -1634,6 +1634,24 @@
     )
   )
 
+  (gr_text D+ (at 223.012 76.835 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text D- (at 220.98 76.835 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text - (at 224.663 77.47 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text + (at 218.821 77.597 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text - (at 235.712 84.836) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text + (at 239.141 84.709) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_circle (center 222.885 83.693) (end 223.139 83.947) (layer B.SilkS) (width 0.2))
   (gr_line (start 240.538 53.213) (end 241.554 53.213) (angle 90) (layer B.SilkS) (width 0.2))
   (gr_line (start 241.554 46.99) (end 240.538 46.99) (angle 90) (layer B.SilkS) (width 0.2))
